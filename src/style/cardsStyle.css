@@ -1,0 +1,21 @@
+.card {
+  padding: 10px;
+}
+
+.card__title {
+  margin: 0;
+  text-align: left;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.card__subtitle {
+  color: #3899FA;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+}

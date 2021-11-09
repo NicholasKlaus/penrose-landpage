@@ -1,0 +1,12 @@
+.video-player {
+  width: 360px;
+  height: 215px;
+}
+
+@media (max-width: 576px) {
+  .video-player {
+    padding: 10px 50px 10px 50px;
+    width: 260px;
+    height: 180px;
+  }
+}

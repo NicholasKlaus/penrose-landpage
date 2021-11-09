@@ -1,0 +1,60 @@
+.main-layout {
+  height: 100vh;
+  background: url('../images/Title.svg') 15% 47% no-repeat fixed,
+              url('../images/Model@2x@2x.png') 45% -40% no-repeat fixed,
+              url('../images/Triangle Glow.svg') 50% -150% no-repeat fixed,
+              url('../images/Shadow.svg') 45% 0% no-repeat padding-box;
+    background-size: 250px, 500px, 900px, cover;
+}
+
+@media (max-width: 1920px) {
+  .main-layout {
+    height: 100vh;
+    background: url('../images/Title.svg') 15% 20% no-repeat fixed,
+                url('../images/Model@2x@2x.png') 45% 40% no-repeat fixed,
+                url('../images/Triangle Glow.svg') 40% 100% no-repeat fixed,
+                url('../images/Shadow.svg') 45% 0% no-repeat padding-box;
+    background-size: 300px, 500px, 1100px, cover;
+  }
+}
+
+@media (max-width: 1468px) {
+  .main-layout {
+    height: 100vh;
+    background: url('../images/Title.svg') 15% 20% no-repeat fixed,
+                url('../images/Model@2x@2x.png') 45% 40% no-repeat fixed,
+                url('../images/Triangle Glow.svg') 40% 70% no-repeat fixed,
+                url('../images/Shadow.svg') 45% 0% no-repeat padding-box;
+    background-size: 300px, 500px, 1000px, cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-layout {
+    height: 100vh;
+    background: url('../images/Title.svg') 15% 20% no-repeat fixed,
+                url('../images/Model@2x@2x.png') 30% 40% no-repeat fixed,
+                url('../images/Triangle Glow.svg') 40% 70% no-repeat fixed,
+                url('../images/Shadow.svg') 45% 0% no-repeat padding-box;
+    background-size: 200px, 500px, 850px, cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-layout {
+    height: 100vh;
+    background: url('../images/Title.svg') 15% 20% no-repeat fixed,
+                url('../images/Model@2x@2x.png') 30% 40% no-repeat fixed,
+                url('../images/Triangle Glow.svg') 40% 70% no-repeat fixed,
+                url('../images/Shadow.svg') 45% 0% no-repeat padding-box;
+    background-size: 200px, 500px, 850px, cover;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-layout {
+    height: 100vh;
+    background:none;
+    background-size: inherit;
+  }
+}
